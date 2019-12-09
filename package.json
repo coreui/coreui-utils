@@ -28,20 +28,18 @@
     "src/",
     "dist/"
   ],
-  "main": "dist/coreui-utils.common.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/coreui/coreui-utils.git"
   },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "babel src -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "@babel/cli": "^7.7.5",
+    "@babel/preset-env": "^7.7.6"
   },
   "engines": {
     "node": ">= 8",

@@ -5,7 +5,17 @@ import hexToRgb from './hex-to-rgb'
 import hexToRgba from './hex-to-rgba'
 import rgbToHex from './rgb-to-hex'
 
+const utils = {
+  deepObjectsMerge,
+  getColor,
+  getStyle,
+  hexToRgb,
+  hexToRgba,
+  rgbToHex
+}
+
 export {
+  utils,
   deepObjectsMerge,
   getColor,
   getStyle,
