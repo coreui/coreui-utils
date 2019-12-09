@@ -28,7 +28,7 @@
     "src/",
     "dist/"
   ],
-  "main": "dist/coreui-utils.js",
+  "main": "dist/coreui-utils.common.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/coreui/coreui-utils.git"
