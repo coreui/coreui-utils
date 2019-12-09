@@ -1,0 +1,50 @@
+{
+  "name": "@coreui/coreui-utils",
+  "version": "1.0.0-alpha.0",
+  "description": "CoreUI utility functions",
+  "sideEffects": false,
+  "keywords": [
+    "coreui",
+    "js",
+    "utilities",
+    "functions",
+    "methods"
+  ],
+  "homepage": "https://coreui.io",
+  "author": {
+    "name": "CoreUI",
+    "url": "https://coreui.io",
+    "github": "https://github.com/coreui",
+    "twitter": "https://twitter.com/core_ui"
+  },
+  "contributors": [
+    {
+      "name": "CoreUI Team",
+      "url": "https://github.com/orgs/coreui/people"
+    }
+  ],
+  "license": "MIT",
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "main": "dist/coreui-utils.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coreui/coreui-utils.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  }
+}
