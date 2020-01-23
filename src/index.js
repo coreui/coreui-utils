@@ -4,6 +4,7 @@ import getStyle from './get-style'
 import hexToRgb from './hex-to-rgb'
 import hexToRgba from './hex-to-rgba'
 import rgbToHex from './rgb-to-hex'
+import makeUid from './make-uid'
 
  const utils = {
   deepObjectsMerge,
@@ -11,7 +12,8 @@ import rgbToHex from './rgb-to-hex'
   getStyle,
   hexToRgb,
   hexToRgba,
-  rgbToHex
+  rgbToHex,
+  makeUid
 }
 
 export default utils
@@ -22,5 +24,6 @@ export {
   getStyle,
   hexToRgb,
   hexToRgba,
-  rgbToHex
+  rgbToHex,
+  makeUid
 }
