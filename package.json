@@ -1,6 +1,6 @@
 {
   "name": "@coreui/utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CoreUI utility functions",
   "sideEffects": false,
   "keywords": [
@@ -28,7 +28,7 @@
     "src/",
     "dist/"
   ],
-  "main": "dist/coreui-utils.js",
+  "main": "dist/coreui-utils.common.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/coreui/coreui-utils.git"
@@ -37,14 +37,14 @@
     "build": "webpack --mode production"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
     "babel-loader": "^8.0.6",
-    "webpack": "^4.41.2",
+    "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5"
-  }
+    "node": ">=8.9.0",
+    "npm": ">= 5.6.0"
+  },
 }
