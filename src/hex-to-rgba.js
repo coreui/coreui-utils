@@ -19,9 +19,10 @@ const hexToRgba = (color, opacity = 100) => {
     g = parseInt(color.slice(3, 5), 16)
     b = parseInt(color.slice(5, 7), 16)
   } else {
-    r = parseInt(color.slice(1, 2), 16)
-    g = parseInt(color.slice(2, 3), 16)
-    b = parseInt(color.slice(3, 5), 16)
+    // Convert 3-digit hex (eg #abc) to 6-digit (#aabbcc) for valid rgb code
+    r = parseInt(color.slice(1, 2).repeat(2), 16)
+    g = parseInt(color.slice(2, 3).repeat(2), 16)
+    b = parseInt(color.slice(3, 4).repeat(2), 16)
   }
 
   return `rgba(${r}, ${g}, ${b}, ${opacity / 100})`
