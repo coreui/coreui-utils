@@ -1,6 +1,6 @@
 {
   "name": "@coreui/utils",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "CoreUI utility functions",
   "sideEffects": false,
   "keywords": [
