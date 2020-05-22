@@ -4,7 +4,7 @@ import getStyle from './get-style'
 import hexToRgb from './hex-to-rgb'
 import hexToRgba from './hex-to-rgba'
 import makeUid from './make-uid'
-import omitByKeys from './make-uid'
+import omitByKeys from './omit-by-keys'
 import pickByKeys from './pick-by-keys'
 import rgbToHex from './rgb-to-hex'
 
