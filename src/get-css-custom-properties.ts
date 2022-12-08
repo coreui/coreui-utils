@@ -11,11 +11,10 @@ const getCssCustomProperties = () => {
   for (let i = sheets.length - 1; i > -1; i--) {
     const rules = sheets[i].cssRules
     for (let j = rules.length - 1; j > -1; j--) {
-      if (rules[j].selectorText === '.ie-custom-properties') {
-        // eslint-disable-next-line prefer-destructuring
-        cssText = rules[j].cssText
-        break
-      }
+      // if (rules[j].selectorText === '.ie-custom-properties') { // eslint-disable-line
+      //   cssText = rules[j].cssText
+      //   break
+      // }
     }
 
     if (cssText) {
@@ -23,7 +22,6 @@ const getCssCustomProperties = () => {
     }
   }
 
-  // eslint-disable-next-line unicorn/prefer-string-slice
   cssText = cssText.substring(
     cssText.lastIndexOf('{') + 1,
     cssText.lastIndexOf('}')

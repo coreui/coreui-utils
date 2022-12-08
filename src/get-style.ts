@@ -1,10 +1,10 @@
 import getCssCustomProperties from './get-css-custom-properties'
 
-const minIEVersion = 10
-const isIE1x = () => Boolean(document.documentMode) && document.documentMode >= minIEVersion
-const isCustomProperty = property => property.match(/^--.*/i)
+const minIEVersion = 11
+const isIE1x = () => Boolean(document.DOCUMENT_NODE) && document.DOCUMENT_NODE >= minIEVersion
+const isCustomProperty = (property: string) => property.match(/^--.*/i)
 
-const getStyle = (property, element = document.body) => {
+const getStyle = (property: string, element = document.body) => {
   let style
 
   if (isCustomProperty(property) && isIE1x()) {

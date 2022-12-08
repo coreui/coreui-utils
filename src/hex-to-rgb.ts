@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-const hexToRgb = color => {
+const hexToRgb = (color: string) => {
   if (typeof color === 'undefined') {
     throw new TypeError('Hex color is not defined')
   }

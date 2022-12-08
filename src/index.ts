@@ -8,19 +8,19 @@ import omitByKeys from './omit-by-keys'
 import pickByKeys from './pick-by-keys'
 import rgbToHex from './rgb-to-hex'
 
-const utils = {
-  deepObjectsMerge,
-  getColor,
-  getStyle,
-  hexToRgb,
-  hexToRgba,
-  makeUid,
-  omitByKeys,
-  pickByKeys,
-  rgbToHex
-}
+// const utils = {
+//   deepObjectsMerge,
+//   getColor,
+//   getStyle,
+//   hexToRgb,
+//   hexToRgba,
+//   makeUid,
+//   omitByKeys,
+//   pickByKeys,
+//   rgbToHex
+// }
 
-export default utils
+// export default utils
 
 export {
   deepObjectsMerge,

@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-const hexToRgba = (color, opacity = 100) => {
+const hexToRgba = (color: string, opacity = 100) => {
   if (typeof color === 'undefined') {
     throw new TypeError('Hex color is not defined')
   }
