@@ -41,6 +41,7 @@
     "lint": "eslint \"src/**/*.{js,ts,tsx}\""
   },
   "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.2",
     "@rollup/plugin-typescript": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
     "@typescript-eslint/parser": "^5.46.0",

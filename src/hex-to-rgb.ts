@@ -1,3 +1,10 @@
+/**
+ * --------------------------------------------------------------------------
+ * CoreUI (__COREUI_VERSION__): hex-to-rgb.ts
+ * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/master/LICENSE)
+ * --------------------------------------------------------------------------
+ */
+
 /* eslint-disable no-magic-numbers */
 const hexToRgb = (color: string) => {
   if (typeof color === 'undefined') {

@@ -1,3 +1,10 @@
+/**
+ * --------------------------------------------------------------------------
+ * CoreUI (__COREUI_VERSION__): index.ts
+ * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/master/LICENSE)
+ * --------------------------------------------------------------------------
+ */
+
 import deepObjectsMerge from './deep-objects-merge'
 import getColor from './get-color'
 import getStyle from './get-style'
@@ -7,20 +14,6 @@ import makeUid from './make-uid'
 import omitByKeys from './omit-by-keys'
 import pickByKeys from './pick-by-keys'
 import rgbToHex from './rgb-to-hex'
-
-// const utils = {
-//   deepObjectsMerge,
-//   getColor,
-//   getStyle,
-//   hexToRgb,
-//   hexToRgba,
-//   makeUid,
-//   omitByKeys,
-//   pickByKeys,
-//   rgbToHex
-// }
-
-// export default utils
 
 export {
   deepObjectsMerge,

@@ -1,3 +1,10 @@
+/**
+ * --------------------------------------------------------------------------
+ * CoreUI (__COREUI_VERSION__): rgb-to-hex.ts
+ * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/master/LICENSE)
+ * --------------------------------------------------------------------------
+ */
+
 const rgbToHex = (color: string) => {
   if (typeof color === 'undefined') {
     throw new TypeError('Hex color is not defined')

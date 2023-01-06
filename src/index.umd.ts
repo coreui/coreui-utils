@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * CoreUI (v3.0.0-rc.0): index.umd.js
- * Licensed under MIT (https://coreui.io/license)
+ * CoreUI (__COREUI_VERSION__): index.umd.ts
+ * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 

@@ -1,3 +1,10 @@
+/**
+ * --------------------------------------------------------------------------
+ * CoreUI (__COREUI_VERSION__): omit-by-keys.ts
+ * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/master/LICENSE)
+ * --------------------------------------------------------------------------
+ */
+
 const omitByKeys = (originalObject: object, keys: string | string[]) => {
   const newObj = {}
   const objKeys = Object.keys(originalObject)
