@@ -1,4 +1,5 @@
 import typescript from '@rollup/plugin-typescript'
+import replace from '@rollup/plugin-replace'
 import { readFileSync } from 'node:fs'
 import { dirname } from 'node:path'
 
@@ -22,6 +23,9 @@ export default [
         exclude: ['**/__tests__/**'],
         tsconfig: './tsconfig.cjs.json',
       }),
+      replace({
+        __COREUI_VERSION__: `v${process.env.npm_package_version}`
+      })
     ],
   },
   {
@@ -40,6 +44,9 @@ export default [
         exclude: ['**/__tests__/**'],
         tsconfig: './tsconfig.esm.json',
       }),
+      replace({
+        __COREUI_VERSION__: `v${process.env.npm_package_version}`
+      })
     ],
   },
   {
@@ -57,6 +64,9 @@ export default [
         exclude: ['**/__tests__/**'],
         tsconfig: './tsconfig.umd.json',
       }),
+      replace({
+        __COREUI_VERSION__: `v${process.env.npm_package_version}`
+      })
     ],
   },
 ]
