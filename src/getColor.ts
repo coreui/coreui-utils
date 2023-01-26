@@ -1,11 +1,11 @@
 /**
  * --------------------------------------------------------------------------
- * CoreUI (__COREUI_VERSION__): get-color.ts
- * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/master/LICENSE)
+ * CoreUI Utils (__COREUI_VERSION__): getColor.ts
+ * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
-import getStyle from './get-style'
+import getStyle from './getStyle'
 
 const getColor = (rawProperty: string, element = document.body) => {
   const property = `--${rawProperty}`

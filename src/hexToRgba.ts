@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * CoreUI (__COREUI_VERSION__): hex-to-rgba.ts
- * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/master/LICENSE)
+ * CoreUI Utils (__COREUI_VERSION__): hexToRgba.ts
+ * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 

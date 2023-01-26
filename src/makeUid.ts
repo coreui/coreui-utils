@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * CoreUI (__COREUI_VERSION__): make-uid.ts
- * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/master/LICENSE)
+ * CoreUI Utils (__COREUI_VERSION__): makeUid.ts
+ * Licensed under MIT (https://github.com/coreui/coreui-utils/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
