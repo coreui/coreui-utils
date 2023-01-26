@@ -20,7 +20,7 @@ export default [
     ],
     plugins: [
       typescript({
-        exclude: ['**/__tests__/**'],
+        exclude: ['**/__tests__/**', '**/index.umd.ts'],
         tsconfig: './tsconfig.cjs.json',
       }),
       replace({
@@ -41,7 +41,7 @@ export default [
     ],
     plugins: [
       typescript({
-        exclude: ['**/__tests__/**'],
+        exclude: ['**/__tests__/**', '**/index.umd.ts'],
         tsconfig: './tsconfig.esm.json',
       }),
       replace({
