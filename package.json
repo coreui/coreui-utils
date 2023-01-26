@@ -1,7 +1,7 @@
 {
   "name": "@coreui/utils",
-  "version": "2.0.0-alpha.2",
-  "description": "CoreUI utility functions",
+  "version": "2.0.0",
+  "description": "CoreUI Utilities",
   "keywords": [
     "coreui",
     "js",
