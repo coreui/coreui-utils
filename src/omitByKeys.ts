@@ -6,6 +6,7 @@
  */
 
 const omitByKeys = (originalObject: object, keys: string | string[]) => {
+  keys = Array.isArray(keys) ? keys : [keys]
   const newObj = {}
   const objKeys = Object.keys(originalObject)
   for (let i = 0; i < objKeys.length; i++) {
