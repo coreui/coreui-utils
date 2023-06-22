@@ -6,6 +6,7 @@
  */
 
 const pickByKeys = (originalObject: object, keys: string | string[]) => {
+  keys = Array.isArray(keys) ? keys : [keys]
   const newObj = {}
   for (let i = 0; i < keys.length; i++) {
     newObj[keys[i]] = originalObject[keys[i]]
